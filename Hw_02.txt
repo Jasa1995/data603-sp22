@@ -1,0 +1,23 @@
+# _Article Summaries_
+![DBMS](https://www.interviewbit.com/blog/wp-content/uploads/2021/08/dbms.jpg)
+
+## A Comparison of NoSQL Database Management Systems and Models
+
+### The NoSQL database doesn't follow the same characteristics of a RDBMS that has data in tables of elements.
+
+Here are some NoSQL database models:
+
+ - Key-value databases : _***Key-value databases***_, also known as _key-value stores_, work by storing and managing _associative arrays_. An associative array, also known as a _dictionary_ or _hash table_, consists of a collection of key-value pairs in which a key serves as a unique identifier to retrieve an associated value. Values can be anything from simple objects, like integers or strings, to more complex objects, like JSON structures. 
+ -  Columnar databases: **Columnar databases**, sometimes called _column-oriented databases_, are database systems that store data in columns. This may seem similar to traditional relational databases, but rather than grouping columns together into tables, each column is stored in a separate file or region in the system’s storage.
+ - Document- oriented databases: _**Document-oriented databases**_, or _document stores_, are NoSQL databases that store data in the form of documents. Document stores are a type of [key-value store](https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models#key-value-databases): each document has a unique identifier — its key — and the document itself serves as the value.
+ - Graph databases: _**Graph databases**_ can be thought of as a subcategory of the document store model, in that they store data in documents and don’t insist that data adhere to a predefined schema. The difference, though, is that graph databases add an extra layer to the document model by highlighting the relationships between individual documents.
+
+## Data Lakes
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Databricks_Logo.png/1024px-Databricks_Logo.png)
+
+A data lake is a central location that holds a large amount of data in its native, raw format. Compared to a hierarchical data warehouse, which stores data in files or folders, a data lake uses a flat architecture and object storage to store the data.‍ Object storage stores data with metadata tags and a unique identifier, which makes it easier to locate and retrieve data across regions, and improves performance. By leveraging inexpensive object storage and open formats, data lakes enable many applications to take advantage of the data.
+
+### References:
+
+ 1. https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models
+ 2. https://databricks.com/discover/data-lakes/introduction

@@ -1,11 +1,14 @@
-# Final Project Rubric
+# Car sales dataset analysis 
+This notebook contains the analysis of car sales between 1997 - 2017. In this notebook we shall discuss about the EDA and the linear regression of the price to its  features and how predictable can the model be based on the given features <br>This readme file provides an overview of the project and how I conducted my analysis.
+## Dataset Description
+For this project i have fetched the car sales data(data.csv) from Kaggle and it has the following features.
+* The dataset has data about the model, make, year of make, Horsepower, type of vehicle, mpg, popularity ,number of wheels, number of doors, fuel type, vehicle segment and price of the vehicle.
+* Data has 11914 records with 16 parameters.
+* Data ranges from the year 1990 – 2017
+* Software used: Google Colab
 
-Each category is worth 20% of the overall grade.  Getting all "Adequate" marks will be worth 90%.
+## About this Repository
+The repository contains an ipynb file with project code, the presentation slides in pdf format, and the dataset containing the car sales.
 
-||Insufficient|Needs work|Adequate|Exemplary|
-|---|---|---|---|---|
-|Awareness of Audience|☐ Fails to increase audience understanding or knowledge of topic. Fails to effectively convey topic to the audience. |☐ Raises audience understanding and knowledge of some points. Technical topic may be clear but lacks development or support.|☐ Raises audience understanding and knowledge of most points. Clear topic, but development or support is inconclusive and incomplete|☐ Significantly increases audience understanding and knowledge of topic. Effectively conveys the technical topic to an audience|
-|Content|☐ Subject and purpose not clearly defined. Very subjective/weak or no support through examples, charts, or figures|☐ Attempts to define purpose and subject. Weak examples, charts, or figures, not adequately supportive|☐ Some success in defining purpose and subject. Some supporting examples, charts, or figures|☐ Clear purpose and subject. Pertinent objective examples, charts, or figures|
-|Organization|☐ Major ideas left unclear; audience left with no new ideas|☐ Very thin data or evidence Ideas not summarized; audience left with vague idea.|☐ Conclusions and ideas are  supported by some evidence. Summary needs refinement.|☐ Conclusions/ideas are supported by ample evidence. Major ideas are summarized; audience has full understanding of position.|
-|Timing and Delivery|☐ Under 2 minutes or over 8 minutes long. Completely disengaged with audience. Major technical issues.|☐ Under 3 minutes or over 7 minutes long. Aware of audience. Minor technical issues.|☐ Under 4 or more than 5 minutes long. Aware of audience. No technical issues.|☐ Between 4 and 5 minutes long. Interacts with audience. No technical issues.|
-|Github Repository|☐ Slides and supporting scripts are not present in Github. No pull request created.|☐ Slides and supporting scripts are present in Github, but not in any easily recognizable structure or organization.|☐ Slides and supporting scripts are in the `/final-project/` directory and are well organized.|☐ Slides and supporting scripts are in the `/final-project/` directory and are well organized. A `README.md` file exists with a summary of the project, description of every file in the folder, and a quick guide on running the code.|
+### How to run the notebook:
+To run the notebook, we use SQL functions, matplotlib, and other basic libraries installed, as mentioned in the notebook. The notebook can be run normally with the dataset being attached to the code since the location of the dataset is specified in the code.
